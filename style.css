@@ -1,9 +1,84 @@
 .caixa {
-    width: 95%;
-    height: 50px;
-    background-color: #3f7ff5;
-    border: 5px solid #000000;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  width: 98%;
+  height: 100%;
+  background-color: rgba(83, 127, 231, 0.3);
+  border: 2px solid #181823;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.caixa h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.caixa_selecao ul {
+  list-style: none;
+  margin: 10;
+  padding: 0;
+  text-align:right;
+  letter-spacing: 1px;
+}
+
+.caixa_selecao li {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.caixa_selecao a {
+  text-decoration: none;
+  padding: 2px;
+  color: #181823;
+  font-weight: bold;
+  border: 2px solid rgb(24, 24, 35);
+  border-radius:10px;
+}
+
+.main {
+  width: 98%;
+  height: 100%;
+  background-color: rgba(83, 127, 231, 0.3);
+  border: 2px solid #181823;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+  padding: 5px;
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  justify-content: flex-start; /* alinha a esquerda */
+
   
+}
+.main h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main p{
+  width: 50%;
+  height: 95%;
+  text-align: justify;
+  margin-left: 0%;
+}
+.conteudo h2{
+  letter-spacing: 2px;
+}
+.conteudo {
+  width: 70%;
+  float: left;
+}
+.imagem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-0%, -20%);
+  max-width: 80%;
+  width: 30%;
+  margin-left: 80px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #E9F8F9, #2f4a8a);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
