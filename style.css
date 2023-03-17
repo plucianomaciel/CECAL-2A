@@ -1,17 +1,30 @@
 .caixa {
-  width: 98%;
-  height: 100%;
-  background-color: rgba(83, 127, 231, 0.3);
+  background-color: #181823;
+  width: 99%;
+  height: 10%;
   border: 2px solid #181823;
-  border-radius: 10px;
-  margin: 10px 10px 10px 0px;
-  padding: 5px;
-  letter-spacing: 1px;
 }
 
-.caixa h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/*contato: paulo luciano*/
+.caixa h4{ 
+  color: #E9F8F9;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 15px;
 }
+
+/*cecal 2023 bem vindo ao...*/
+.caixa_selecao h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  color: #E9F8F9;
+  padding: 20px;
+}
+
 .caixa_selecao ul {
   list-style: none;
   margin: 10;
@@ -76,9 +89,9 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #E9F8F9, #2f4a8a);
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: #537FE7;
 }
 
 
