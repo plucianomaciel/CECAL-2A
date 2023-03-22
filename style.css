@@ -1,12 +1,20 @@
-.caixa {
+.fundo {
+  background-image: url('https://drive.google.com/uc?id=1WPxakcuTHT-iwF9AOC0LCc5C56WrdgzF');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.topBox {
   background-color: #181823;
-  width: 99%;
+  width: 99.7%;
   height: 10%;
   border: 2px solid #181823;
 }
 
 /*contato: paulo luciano*/
-.caixa h4{ 
+.topBox h4{ 
   color: #E9F8F9;
   text-transform: uppercase;
   font-weight: bold;
@@ -14,63 +22,122 @@
   font-size: 15px;
 }
 
-/*cecal 2023 bem vindo ao...*/
-.caixa_selecao h1{
+.cecal {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 40px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
   color: #E9F8F9;
-  padding: 20px;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
 }
+/*cecal 2023 bem vindo ao...*/
 
-.caixa_selecao ul {
+.caixa_selecao1{
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  color: #E9F8F9;
+  padding: 10px;
+  margin-left: 70px;
+}
+.caixa_selecao1 h1{
+  margin-bottom: 20px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
+}
+.mensagem{
+  display: inline-block;
+  float: right;
+}
+.mensagem h1{
+  max-width: 600px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  color: #E9F8F9;
+  padding: 10px;
+  margin-left: 70px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
+}
+.menus{
+  float: right;
+  width: 50%;
+}
+/*alinhar a direita da página*/
+.menus ul {
+  max-height: 20px;
   list-style: none;
   margin: 10;
+  margin-left:0px;
   padding: 0;
-  text-align:right;
+  text-align:center;
   letter-spacing: 1px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.caixa_selecao li {
+.menus li {
   display: inline-block;
   margin-right: 20px;
   text-transform: uppercase;
-}
-
-.caixa_selecao a {
-  text-decoration: none;
-  padding: 2px;
-  color: #181823;
-  font-weight: bold;
-  border: 2px solid rgb(24, 24, 35);
-  border-radius:10px;
-}
-
-.main {
-  width: 98%;
-  height: 100%;
-  background-color: rgba(83, 127, 231, 0.3);
-  border: 2px solid #181823;
-  border-radius: 10px;
-  margin: 10px 10px 10px 0px;
-  padding: 5px;
-  display: flex;
-  align-items: center; /* centraliza verticalmente */
-  justify-content: flex-start; /* alinha a esquerda */
-
   
 }
-.main h2{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+.menus a {
+  text-decoration: none;
+  padding: 0px;
+  color: #E9F8F9;
+  font-weight: bold;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
 }
-.main p{
-  width: 50%;
-  height: 95%;
-  text-align: justify;
-  margin-left: 0%;
+
+.missao {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: rgba(83, 127, 231, 0.3);
+  border: 2px solid #181823;
+  border-radius: 30px;
+  margin: 80px 10px 40px 20px;
+  padding: 5px;  
 }
+
+.valores {
+  float:right;
+  width: 20%;
+  height: 200px;
+  background-color: rgba(83, 127, 231, 0.3);
+  border: 2px solid #181823;
+  border-radius: 30px;
+  margin: 80px 10px 20px 20px;
+  padding: 5px;
+ 
+}
+
+.compromisso {
+  float:center;
+  width: 20%;
+  height: 200px;
+  background-color: rgba(83, 127, 231, 0.3);
+  border: 2px solid #181823;
+  border-radius: 30px;
+  margin: 80px 10px 20px 20px;
+  padding: 5px;
+  
+}
+
 .conteudo h2{
   letter-spacing: 2px;
 }
@@ -78,20 +145,28 @@
   width: 70%;
   float: left;
 }
-.imagem {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-0%, -20%);
-  max-width: 80%;
-  width: 30%;
-  margin-left: 80px;
+.missao h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #E9F8F9;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
 }
-
-body {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #537FE7;
+.valores h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #E9F8F9;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
 }
-
+.compromisso h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #E9F8F9;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3)
+}
 
